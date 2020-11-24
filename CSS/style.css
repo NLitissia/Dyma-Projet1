@@ -23,11 +23,15 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin-bottom: 10px;
+}
+
 
 /* Header */
 
 .header {
-    background: #333;
+    background: #944722;
     overflow: auto;
     line-height: 1.7em;
 }
@@ -39,7 +43,7 @@ a {
 }
 
 .header nav h1 a {
-    color: white;
+    color: #ecca7b;
 }
 
 .header nav ul {
@@ -52,7 +56,7 @@ a {
 }
 
 .header nav ul li a {
-    color: white;
+    color: #ecca7b;
     padding: 20px;
     display: block;
 }
@@ -62,6 +66,36 @@ a {
     color: #444;
 }
 
+.separator {
+    margin: 20px auto;
+    height: 10px;
+    width: 100px;
+    background: #111;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background: white;
+    color: #222;
+}
+
+.btn:hover {
+    background-color: #944722;
+    color: aliceblue;
+}
+
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 /* vp */
 
@@ -69,4 +103,23 @@ a {
     height: 700px;
     background: url(../images/accueil.jpg) center center;
     background-size: cover;
+    text-align: center;
+}
+
+.vp-content {
+    max-width: 600px;
+    padding-top: 170px;
+    color: white;
+    display: block;
+    margin: auto;
+}
+
+.vp-content h1 {
+    font-size: 50px;
+}
+
+.vp-content p {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.9em;
 }
