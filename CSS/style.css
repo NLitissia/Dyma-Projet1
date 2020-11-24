@@ -15,7 +15,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     margin-bottom: 20px;
 }
 
@@ -32,6 +33,33 @@ p {
     display: block;
     margin: auto;
     max-width: 1000px;
+}
+
+.underline {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.chip {
+    display: inline-block;
+    width: 35px;
+    border-radius: 100px;
+    background: #333;
+    color: white;
+    text-align: center;
+}
+
+.chip3bis {
+    background-color: #9ad3dd;
+    color: #111;
+}
+
+.chip3 {
+    background-color: #a0971a;
+}
+
+.bis {
+    font-size: 0.5em;
 }
 
 
@@ -179,4 +207,22 @@ footer {
 
 footer p {
     margin-bottom: 0px;
+}
+
+.where {
+    padding: 180px 0px;
+    overflow: auto;
+    min-height: 100vh;
+}
+
+.where-img {
+    float: left;
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.where-text {
+    float: right;
+    width: 50%;
 }
