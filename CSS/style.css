@@ -141,3 +141,42 @@ p {
     float: left;
     width: 50%;
 }
+
+.person {
+    height: 600px;
+    background: url(../images/person.jpg) center center;
+    background-size: cover;
+}
+
+.reservation {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-secondary {
+    background: #944722;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: white;
+    color: #111;
+    border: solid;
+    border-color: #944722;
+}
+
+footer {
+    background: #944722;
+    color: #ecca7b;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0px;
+}
